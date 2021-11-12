@@ -33,4 +33,4 @@ Now you should be all set!
 
 ## 💝 Thanks to
 
-- @Pocco81
+- [Pocco81](https://github.com/Pocco81)
