@@ -1,36 +1,37 @@
 # Catppuccin!
 colors:
-    primary:
-        background: "0x1B1623"
-        foreground: "0xB9C4E3"
+  # Default colors
+  primary:
+    background: '0x1E1E28'
+    foreground: '0xD7DAE0'
 
-    # Colors the cursor will use if `custom_cursor_colors` is true
-    cursor:
-        text: "0x221E2F"
-        cursor: "0xADD692"
+  # Colors the cursor will use if `custom_cursor_colors` is true
+  cursor:
+    text: '0x1E1E28'
+    cursor: '0xB3E1A3'
 
-    # Normal colors
-    normal:
-        black: "0x0E0C13"
-        red: "0xE28D8D"
-        green: "0xADD692"
-        yellow: "0xF0DC89"
-        blue: "0x84A5CB"
-        magenta: "0xAE9AD6"
-        cyan: "0xF0A8E4"
-        white: "0xF0F0F5"
+  # Normal colors
+  normal:
+    black:   '0x6E6C7C'
+    red:     '0xE28C8C'
+    green:   '0xB3E1A3'
+    yellow:  '0xEADDA0'
+    blue:    '0xA4B9EF'
+    magenta: '0xC6AAE8'
+    cyan:    '0xF0AFE1'
+    white:   '0xD7DAE0'
 
-    # Bright colors
-    bright:
-        black: "0x3E4058"
-        red: "0xE28D8D"
-        green: "0xADD692"
-        yellow: "0xF0DC89"
-        blue: "0x84A5CB"
-        magenta: "0xAE9AD6"
-        cyan: "0xF0A8E4"
-        white: "0xF0F0F5"
+  # Bright colors
+  bright:
+    black:   '0x6E6C7C'
+    red:     '0xE28C8C'
+    green:   '0xB3E1A3'
+    yellow:  '0xEADDA0'
+    blue:    '0xA4B9EF'
+    magenta: '0xC6AAE8'
+    cyan:    '0xF0AFE1'
+    white:   '0xD7DAE0'
 
-    indexed_colors:
-        - { index: 16, color: "0xF0DC89" }
-        - { index: 17, color: "0xE28D8D" }
+  indexed_colors:
+    - { index: 16, color: '0xECBFBD' }
+    - { index: 17, color: '0x3E4058' }
