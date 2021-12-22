@@ -2,36 +2,36 @@
 colors:
   # Default colors
   primary:
-    background: '0x1E1E28'
-    foreground: '0xD7DAE0'
+    background: '#1E1E28'
+    foreground: '#DADAE8'
 
   # Colors the cursor will use if `custom_cursor_colors` is true
   cursor:
-    text: '0x1E1E28'
-    cursor: '0xB3E1A3'
+    text: '#1E1E28'
+    cursor: '#B1E3AD'
 
   # Normal colors
   normal:
-    black:   '0x6E6C7C'
-    red:     '0xE28C8C'
-    green:   '0xB3E1A3'
-    yellow:  '0xEADDA0'
-    blue:    '0xA4B9EF'
-    magenta: '0xC6AAE8'
-    cyan:    '0xF0AFE1'
-    white:   '0xD7DAE0'
+    black:   '#6E6C7E'
+    red:     '#E38C8F'
+    green:   '#B1E3AD'
+    yellow:  '#EBDDAA'
+    blue:    '#A4B9EF'
+    magenta: '#C6AAE8'
+    cyan:    '#E5B4E2'
+    white:   '#DADAE8'
 
   # Bright colors
   bright:
-    black:   '0x6E6C7C'
-    red:     '0xE28C8C'
-    green:   '0xB3E1A3'
-    yellow:  '0xEADDA0'
-    blue:    '0xA4B9EF'
-    magenta: '0xC6AAE8'
-    cyan:    '0xF0AFE1'
-    white:   '0xD7DAE0'
+    black:   '#6E6C7E'
+    red:     '#E38C8F'
+    green:   '#B1E3AD'
+    yellow:  '#EBDDAA'
+    blue:    '#A4B9EF'
+    magenta: '#C6AAE8'
+    cyan:    '#E5B4E2'
+    white:   '#DADAE8'
 
   indexed_colors:
-    - { index: 16, color: '0xECBFBD' }
-    - { index: 17, color: '0x3E4058' }
+    - { index: 16, color: '#F2CECF' }
+    - { index: 17, color: '#3E4058' }
