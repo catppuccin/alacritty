@@ -41,5 +41,4 @@ Now you should be all set!
 
 ## 💝 Thanks to
 
-- [Pocco81](https://github.com/Pocco81)
 - [VictorTennekes](https://github.com/VictorTennekes)
