@@ -44,7 +44,7 @@ color_schemes:
     # Selection colors
     selection:
       text: '#eff1f5' # base
-      background: '#8839ef' # mauve
+      background: '#dc8a78' # rosewater
 
     # Normal colors
     normal:
@@ -123,7 +123,7 @@ color_schemes:
     # Selection colors
     selection:
       text: '#303446' # base
-      background: '#ca9ee6' # mauve
+      background: '#f2d5cf' # rosewater
 
     # Normal colors
     normal:
@@ -202,7 +202,7 @@ color_schemes:
     # Selection colors
     selection:
       text: '#24273a' # base
-      background: '#c6a0f6' # mauve
+      background: '#f4dbd6' # rosewater
 
     # Normal colors
     normal:
@@ -281,7 +281,7 @@ color_schemes:
     # Selection colors
     selection:
       text: '#1e1e2e' # base
-      background: '#cba6f7' # mauve
+      background: '#f5e0dc' # rosewater
 
     # Normal colors
     normal:
