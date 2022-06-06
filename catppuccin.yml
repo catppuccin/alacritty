@@ -80,8 +80,8 @@ color_schemes:
       white:   '#ACB0BE' # surface2
 
     indexed_colors:
-      - { index: 16, color '#FE640B' }
-      - { index: 17, color '#DC8A78' }
+      - { index: 16, color: '#FE640B' }
+      - { index: 17, color: '#DC8A78' }
 
 
 
@@ -163,8 +163,8 @@ color_schemes:
       white:   '#B5BFE2' # subtext1
 
     indexed_colors:
-      - { index: 16, color '#EF9F76' }
-      - { index: 17, color '#F2D5CF' }
+      - { index: 16, color: '#EF9F76' }
+      - { index: 17, color: '#F2D5CF' }
 
 
 
@@ -246,8 +246,8 @@ color_schemes:
       white:   '#B8C0E0' # subtext1
 
     indexed_colors:
-      - { index: 16, color '#F5A97F' }
-      - { index: 17, color '#F4DBD6' }
+      - { index: 16, color: '#F5A97F' }
+      - { index: 17, color: '#F4DBD6' }
 
 
 
@@ -329,8 +329,8 @@ color_schemes:
       white:   '#BAC2DE' # subtext1
 
     indexed_colors:
-      - { index: 16, color '#FAB387' }
-      - { index: 17, color '#F5E0DC' }
+      - { index: 16, color: '#FAB387' }
+      - { index: 17, color: '#F5E0DC' }
 
 
 
