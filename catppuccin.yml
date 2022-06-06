@@ -48,7 +48,7 @@ color_schemes:
 
     # Normal colors
     normal:
-      black:   '#4C4F69' # text
+      black:   '#5C5F77' # subtext1
       red:     '#D20F39' # red
       green:   '#40A02B' # green
       yellow:  '#DF8E1D' # yellow
@@ -59,7 +59,18 @@ color_schemes:
 
     # Bright colors
     bright:
-      black:   '#4C4F69' # text
+      black:   '#6C6F85' # subtext0
+      red:     '#D20F39' # red
+      green:   '#40A02B' # green
+      yellow:  '#DF8E1D' # yellow
+      blue:    '#1E66F5' # blue
+      magenta: '#EA76CB' # pink
+      cyan:    '#179299' # teal
+      white:   '#BCC0CC' # surface1
+
+    # Dim colors
+    dim:
+      black:   '#5C5F77' # subtext1
       red:     '#D20F39' # red
       green:   '#40A02B' # green
       yellow:  '#DF8E1D' # yellow
@@ -68,16 +79,9 @@ color_schemes:
       cyan:    '#179299' # teal
       white:   '#ACB0BE' # surface2
 
-    # Dim colors
-    dim:
-      black:   '#4C4F69' # text
-      red:     '#D20F39' # red
-      green:   '#40A02B' # green
-      yellow:  '#DF8E1D' # yellow
-      blue:    '#1E66F5' # blue
-      magenta: '#EA76CB' # pink
-      cyan:    '#179299' # teal
-      white:   '#ACB0BE' # surface2
+    indexed_colors:
+      - { index: 16, color '#FE640B' }
+      - { index: 17, color '#DC8A78' }
 
 
 
@@ -138,14 +142,14 @@ color_schemes:
 
     # Bright colors
     bright:
-      black:   '#51576D' # surface1
+      black:   '#626880' # surface2
       red:     '#E78284' # red
       green:   '#A6D189' # green
       yellow:  '#E5C890' # yellow
       blue:    '#8CAAEE' # blue
       magenta: '#F4B8E4' # pink
       cyan:    '#81C8BE' # teal
-      white:   '#B5BFE2' # subtext1
+      white:   '#A5ADCE' # subtext0
 
     # Dim colors
     dim:
@@ -157,6 +161,10 @@ color_schemes:
       magenta: '#F4B8E4' # pink
       cyan:    '#81C8BE' # teal
       white:   '#B5BFE2' # subtext1
+
+    indexed_colors:
+      - { index: 16, color '#EF9F76' }
+      - { index: 17, color '#F2D5CF' }
 
 
 
@@ -217,14 +225,14 @@ color_schemes:
 
     # Bright colors
     bright:
-      black:   '#494D64' # surface1
+      black:   '#5B6078' # surface2
       red:     '#ED8796' # red
       green:   '#A6DA95' # green
       yellow:  '#EED49F' # yellow
       blue:    '#8AADF4' # blue
       magenta: '#F5BDE6' # pink
       cyan:    '#8BD5CA' # teal
-      white:   '#B8C0E0' # subtext1
+      white:   '#A5ADCB' # subtext0
 
     # Dim colors
     dim:
@@ -236,6 +244,10 @@ color_schemes:
       magenta: '#F5BDE6' # pink
       cyan:    '#8BD5CA' # teal
       white:   '#B8C0E0' # subtext1
+
+    indexed_colors:
+      - { index: 16, color '#F5A97F' }
+      - { index: 17, color '#F4DBD6' }
 
 
 
@@ -296,14 +308,14 @@ color_schemes:
 
     # Bright colors
     bright:
-      black:   '#45475A' # surface1
+      black:   '#585B70' # surface2
       red:     '#F38BA8' # red
       green:   '#A6E3A1' # green
       yellow:  '#F9E2AF' # yellow
       blue:    '#89B4FA' # blue
       magenta: '#F5C2E7' # pink
       cyan:    '#94E2D5' # teal
-      white:   '#BAC2DE' # subtext1
+      white:   '#A6ADC8' # subtext0
 
     # Dim colors
     dim:
@@ -315,6 +327,10 @@ color_schemes:
       magenta: '#F5C2E7' # pink
       cyan:    '#94E2D5' # teal
       white:   '#BAC2DE' # subtext1
+
+    indexed_colors:
+      - { index: 16, color '#FAB387' }
+      - { index: 17, color '#F5E0DC' }
 
 
 
