@@ -19,7 +19,7 @@
 ## Usage
 
 1. Copy the contents of `catppuccin.yml` into your Alacritty config file (usually stored at `~/.config/alacritty/alacritty.yml`)
-2. Set the line [`colors: *macchiato`](https://github.com/catppuccin/alacritty/blob/main/catppuccin.yml#L321) to match your desired flavour. (_latte, frappe, macchiato, mocha_)
+2. Set the line [`colors: *macchiato`](https://github.com/catppuccin/alacritty/blob/main/catppuccin.yml#L337) to match your desired flavour. (_latte, frappe, macchiato, mocha_)
 
 ## 🙋 FAQ
 
