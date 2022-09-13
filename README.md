@@ -12,14 +12,26 @@
 </p>
 
 <p align="center">
-  <img src="assets/screenshot.png"/>
+  <img src="assets/screenshot.webp"/>
 </p>
 
 
 ## Usage
 
-1. Copy the contents of `catppuccin.yml` into your Alacritty config file (usually stored at `~/.config/alacritty/alacritty.yml`)
-2. Set the line [`colors: *macchiato`](https://github.com/catppuccin/alacritty/blob/main/catppuccin.yml#L337) to match your desired flavour. (_latte, frappe, macchiato, mocha_)
+1. Clone this repository next to your Alacritty config file (usually stored at `~/.config/alacritty/alacritty.yml`), with e.g.
+```
+git clone https://github.com/catppuccin/alacritty.git ~/.config/alacritty/catppuccin
+```
+
+2. Import the desired flavour config in your `alacritty.yml`:
+```yaml
+import:
+  # uncomment the flavour you want below:
+  - ~/.config/alacritty/catppuccin/catppuccin-mocha.yml
+#  - ~/.config/alacritty/catppuccin/catppuccin-macchiato.yml
+#  - ~/.config/alacritty/catppuccin/catppuccin-frappe.yml
+#  - ~/.config/alacritty/catppuccin/catppuccin-latte.yml
+```
 
 ## 🙋 FAQ
 
