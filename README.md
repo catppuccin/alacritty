@@ -18,19 +18,27 @@
 
 ## Usage
 
-1. Clone this repository next to your Alacritty config file (usually stored at `~/.config/alacritty/alacritty.yml`), with e.g.
+1. Copy the config files next to your Alacritty config file (usually stored at `~/.config/alacritty/alacritty.toml`), with e.g.
 ```
-git clone https://github.com/catppuccin/alacritty.git ~/.config/alacritty/catppuccin
+# mocha
+curl -LO --output-dir ~/.config/alacritty https://github.com/catppuccin/alacritty/raw/main/catppuccin-mocha.toml
+# macchiato
+curl -LO --output-dir ~/.config/alacritty https://github.com/catppuccin/alacritty/raw/main/catppuccin-macchiato.toml
+# frappe
+curl -LO --output-dir ~/.config/alacritty https://github.com/catppuccin/alacritty/raw/main/catppuccin-frappe.toml
+# latte
+curl -LO --output-dir ~/.config/alacritty https://github.com/catppuccin/alacritty/raw/main/catppuccin-latte.toml
 ```
 
 2. Import the desired flavour config in your `alacritty.yml`:
 ```yaml
-import:
+import = [
   # uncomment the flavour you want below:
-  - ~/.config/alacritty/catppuccin/catppuccin-mocha.yml
-#  - ~/.config/alacritty/catppuccin/catppuccin-macchiato.yml
-#  - ~/.config/alacritty/catppuccin/catppuccin-frappe.yml
-#  - ~/.config/alacritty/catppuccin/catppuccin-latte.yml
+  "~/.config/alacritty/catppuccin/catppuccin-mocha.yml"
+  # "~/.config/alacritty/catppuccin/catppuccin-macchiato.yml"
+  # "~/.config/alacritty/catppuccin/catppuccin-frappe.yml"
+  # "~/.config/alacritty/catppuccin/catppuccin-latte.yml"
+]
 ```
 
 ## 🙋 FAQ
@@ -39,8 +47,8 @@ import:
   A: The solution is two-fold. First, make sure you have the following set in `alacritty.yml`:
 
 ```yml
-env:
-  TERM: xterm-256color
+[env]
+TERM = "xterm-256color"
 ```
 
 Second, make sure you have the following in your `tmux.conf`:
