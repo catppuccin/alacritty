@@ -18,6 +18,9 @@
 
 ## Usage
 
+> **Note**:\
+> Please see this [tag](https://github.com/catppuccin/alacritty/tree/yaml) if you need the config in YAML format.
+
 1. Copy the config files next to your Alacritty config file (usually stored at `~/.config/alacritty/alacritty.toml`), with e.g.
 ```
 # mocha
@@ -30,23 +33,23 @@ curl -LO --output-dir ~/.config/alacritty https://github.com/catppuccin/alacritt
 curl -LO --output-dir ~/.config/alacritty https://github.com/catppuccin/alacritty/raw/main/catppuccin-latte.toml
 ```
 
-2. Import the desired flavour config in your `alacritty.yml`:
-```yaml
+2. Import the desired flavour config in your `alacritty.toml`:
+```toml
 import = [
   # uncomment the flavour you want below:
-  "~/.config/alacritty/catppuccin/catppuccin-mocha.yml"
-  # "~/.config/alacritty/catppuccin/catppuccin-macchiato.yml"
-  # "~/.config/alacritty/catppuccin/catppuccin-frappe.yml"
-  # "~/.config/alacritty/catppuccin/catppuccin-latte.yml"
+  "~/.config/alacritty/catppuccin/catppuccin-mocha.toml"
+  # "~/.config/alacritty/catppuccin/catppuccin-macchiato.toml"
+  # "~/.config/alacritty/catppuccin/catppuccin-frappe.toml"
+  # "~/.config/alacritty/catppuccin/catppuccin-latte.toml"
 ]
 ```
 
 ## 🙋 FAQ
 
 - Q: **_"Help! the colors don't look like in the demo while I'm on Tmux. What do I do?"_**
-  A: The solution is two-fold. First, make sure you have the following set in `alacritty.yml`:
+  A: The solution is two-fold. First, make sure you have the following set in `alacritty.toml`:
 
-```yml
+```toml
 [env]
 TERM = "xterm-256color"
 ```
