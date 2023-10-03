@@ -12,9 +12,27 @@
 </p>
 
 <p align="center">
-  <img src="assets/screenshot.webp"/>
+  <img src="https://raw.githubusercontent.com/catppuccin/alacritty/main/assets/preview.webp"/>
 </p>
 
+## Previews
+
+<details>
+<summary>🌻 Latte</summary>
+<img src="https://raw.githubusercontent.com/catppuccin/alacritty/main/assets/latte.webp"/>
+</details>
+<details>
+<summary>🪴 Frappé</summary>
+<img src="https://raw.githubusercontent.com/catppuccin/alacritty/main/assets/frappe.webp"/>
+</details>
+<details>
+<summary>🌺 Macchiato</summary>
+<img src="https://raw.githubusercontent.com/catppuccin/alacritty/main/assets/macchiato.webp"/>
+</details>
+<details>
+<summary>🌿 Mocha</summary>
+<img src="https://raw.githubusercontent.com/catppuccin/alacritty/main/assets/mocha.webp"/>
+</details>
 
 ## Usage
 
@@ -27,10 +45,10 @@ git clone https://github.com/catppuccin/alacritty.git ~/.config/alacritty/catppu
 ```yaml
 import:
   # uncomment the flavour you want below:
-  - ~/.config/alacritty/catppuccin/catppuccin-mocha.yml
-#  - ~/.config/alacritty/catppuccin/catppuccin-macchiato.yml
-#  - ~/.config/alacritty/catppuccin/catppuccin-frappe.yml
-#  - ~/.config/alacritty/catppuccin/catppuccin-latte.yml
+  - ~/.config/alacritty/catppuccin/themes/catppuccin-mocha.yml
+#  - ~/.config/alacritty/catppuccin/themes/atppuccin-macchiato.yml
+#  - ~/.config/alacritty/catppuccin/themes/catppuccin-frappe.yml
+#  - ~/.config/alacritty/catppuccin/themes/catppuccin-latte.yml
 ```
 
 ## 🙋 FAQ
@@ -56,6 +74,7 @@ Now you should be all set!
 
 - [VictorTennekes](https://github.com/VictorTennekes)
 - [Andreas Grafen](https://github.com/andreasgrafen)
+- [justTOBBI](https://github.com/justTOBBI)
 
 &nbsp;
 
