@@ -15,14 +15,14 @@
   <img src="assets/screenshot.webp"/>
 </p>
 
-
 ## Usage
 
-> **Note**:\
+> [!NOTE]
 > Please see this [tag](https://github.com/catppuccin/alacritty/tree/yaml) if you need the config in YAML format.
 
 1. Copy the config files next to your Alacritty config file (usually stored at `~/.config/alacritty/alacritty.toml`), with e.g.
-```
+
+```console
 # mocha
 curl -LO --output-dir ~/.config/alacritty https://github.com/catppuccin/alacritty/raw/main/catppuccin-mocha.toml
 # macchiato
@@ -34,6 +34,7 @@ curl -LO --output-dir ~/.config/alacritty https://github.com/catppuccin/alacritt
 ```
 
 2. Import the desired flavour config in your `alacritty.toml`:
+
 ```toml
 import = [
   # uncomment the flavour you want below:
