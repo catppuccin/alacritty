@@ -15,32 +15,44 @@
   <img src="assets/screenshot.webp"/>
 </p>
 
-
 ## Usage
 
-1. Clone this repository next to your Alacritty config file (usually stored at `~/.config/alacritty/alacritty.yml`), with e.g.
-```
-git clone https://github.com/catppuccin/alacritty.git ~/.config/alacritty/catppuccin
+> [!NOTE]
+> Please see this [tag](https://github.com/catppuccin/alacritty/tree/yaml) if you need the config in YAML format.
+
+1. Copy the config files next to your Alacritty config file (usually stored at `~/.config/alacritty/alacritty.toml`), with e.g.
+
+```console
+# mocha
+curl -LO --output-dir ~/.config/alacritty https://github.com/catppuccin/alacritty/raw/main/catppuccin-mocha.toml
+# macchiato
+curl -LO --output-dir ~/.config/alacritty https://github.com/catppuccin/alacritty/raw/main/catppuccin-macchiato.toml
+# frappe
+curl -LO --output-dir ~/.config/alacritty https://github.com/catppuccin/alacritty/raw/main/catppuccin-frappe.toml
+# latte
+curl -LO --output-dir ~/.config/alacritty https://github.com/catppuccin/alacritty/raw/main/catppuccin-latte.toml
 ```
 
-2. Import the desired flavour config in your `alacritty.yml`:
-```yaml
-import:
+2. Import the desired flavour config in your `alacritty.toml`:
+
+```toml
+import = [
   # uncomment the flavour you want below:
-  - ~/.config/alacritty/catppuccin/catppuccin-mocha.yml
-#  - ~/.config/alacritty/catppuccin/catppuccin-macchiato.yml
-#  - ~/.config/alacritty/catppuccin/catppuccin-frappe.yml
-#  - ~/.config/alacritty/catppuccin/catppuccin-latte.yml
+  "~/.config/alacritty/catppuccin/catppuccin-mocha.toml"
+  # "~/.config/alacritty/catppuccin/catppuccin-macchiato.toml"
+  # "~/.config/alacritty/catppuccin/catppuccin-frappe.toml"
+  # "~/.config/alacritty/catppuccin/catppuccin-latte.toml"
+]
 ```
 
 ## 🙋 FAQ
 
-- Q: **_"Help! the colors don't look like in the demo while I'm on Tmux. What do I do?"_**
-  A: The solution is two-fold. First, make sure you have the following set in `alacritty.yml`:
+- Q: **_"Help! the colors don't look like in the demo while I'm on Tmux. What do I do?"_**\
+  A: The solution is two-fold. First, make sure you have the following set in `alacritty.toml`:
 
-```yml
-env:
-  TERM: xterm-256color
+```toml
+[env]
+TERM = "xterm-256color"
 ```
 
 Second, make sure you have the following in your `tmux.conf`:
