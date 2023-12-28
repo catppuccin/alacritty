@@ -47,7 +47,7 @@ import = [
 
 ## 🙋 FAQ
 
-- Q: **_"Help! the colors don't look like in the demo while I'm on Tmux. What do I do?"_**
+- Q: **_"Help! the colors don't look like in the demo while I'm on Tmux. What do I do?"_**\
   A: The solution is two-fold. First, make sure you have the following set in `alacritty.toml`:
 
 ```toml
