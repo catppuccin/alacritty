@@ -24,13 +24,13 @@
 
 ```console
 # mocha
-curl -LO --output-dir ~/.config/alacritty/catppuccin https://github.com/catppuccin/alacritty/raw/main/catppuccin-mocha.toml --create-dirs
+curl -LO --output-dir ~/.config/alacritty https://github.com/catppuccin/alacritty/raw/main/catppuccin-mocha.toml
 # macchiato
-curl -LO --output-dir ~/.config/alacritty/catppuccin https://github.com/catppuccin/alacritty/raw/main/catppuccin-macchiato.toml --create-dirs
+curl -LO --output-dir ~/.config/alacritty https://github.com/catppuccin/alacritty/raw/main/catppuccin-macchiato.toml
 # frappe
-curl -LO --output-dir ~/.config/alacritty/catppuccin https://github.com/catppuccin/alacritty/raw/main/catppuccin-frappe.toml --create-dirs
+curl -LO --output-dir ~/.config/alacritty https://github.com/catppuccin/alacritty/raw/main/catppuccin-frappe.toml
 # latte
-curl -LO --output-dir ~/.config/alacritty/catppuccin https://github.com/catppuccin/alacritty/raw/main/catppuccin-latte.toml --create-dirs
+curl -LO --output-dir ~/.config/alacritty https://github.com/catppuccin/alacritty/raw/main/catppuccin-latte.toml
 ```
 
 2. Import the desired flavour config in your `alacritty.toml`:
@@ -38,10 +38,10 @@ curl -LO --output-dir ~/.config/alacritty/catppuccin https://github.com/catppucc
 ```toml
 import = [
   # uncomment the flavour you want below:
-  "~/.config/alacritty/catppuccin/catppuccin-mocha.toml"
-  # "~/.config/alacritty/catppuccin/catppuccin-macchiato.toml"
-  # "~/.config/alacritty/catppuccin/catppuccin-frappe.toml"
-  # "~/.config/alacritty/catppuccin/catppuccin-latte.toml"
+  "~/.config/alacritty/catppuccin-mocha.toml"
+  # "~/.config/alacritty/catppuccin-macchiato.toml"
+  # "~/.config/alacritty/catppuccin-frappe.toml"
+  # "~/.config/alacritty/catppuccin-latte.toml"
 ]
 ```
 
