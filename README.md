@@ -24,13 +24,13 @@
 
 ```console
 # mocha
-curl -LO --output-dir ~/.config/alacritty https://github.com/catppuccin/alacritty/raw/main/catppuccin-mocha.toml
+curl -LO --output-dir ~/.config/alacritty/catppuccin https://github.com/catppuccin/alacritty/raw/main/catppuccin-mocha.toml --create-dirs
 # macchiato
-curl -LO --output-dir ~/.config/alacritty https://github.com/catppuccin/alacritty/raw/main/catppuccin-macchiato.toml
+curl -LO --output-dir ~/.config/alacritty/catppuccin https://github.com/catppuccin/alacritty/raw/main/catppuccin-macchiato.toml --create-dirs
 # frappe
-curl -LO --output-dir ~/.config/alacritty https://github.com/catppuccin/alacritty/raw/main/catppuccin-frappe.toml
+curl -LO --output-dir ~/.config/alacritty/catppuccin https://github.com/catppuccin/alacritty/raw/main/catppuccin-frappe.toml --create-dirs
 # latte
-curl -LO --output-dir ~/.config/alacritty https://github.com/catppuccin/alacritty/raw/main/catppuccin-latte.toml
+curl -LO --output-dir ~/.config/alacritty/catppuccin https://github.com/catppuccin/alacritty/raw/main/catppuccin-latte.toml --create-dirs
 ```
 
 2. Import the desired flavour config in your `alacritty.toml`:
