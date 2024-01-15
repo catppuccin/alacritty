@@ -17,52 +17,53 @@
 
 ## Usage
 
-> [!NOTE]
-> Please see this [tag](https://github.com/catppuccin/alacritty/tree/yaml) if you need the config in YAML format.
+> [!NOTE]  
+> Please see the [`yaml`](https://github.com/catppuccin/alacritty/tree/yaml) tag if you need the config in YAML format.
 
-1. Copy the config files next to your Alacritty config file (usually stored at `~/.config/alacritty/alacritty.toml`), with e.g.
+1. Copy the config files next to your Alacritty config file (usually stored at `~/.config/alacritty/alacritty.toml`),
+   with e.g.
 
-```console
-# mocha
-curl -LO --output-dir ~/.config/alacritty https://github.com/catppuccin/alacritty/raw/main/catppuccin-mocha.toml
-# macchiato
-curl -LO --output-dir ~/.config/alacritty https://github.com/catppuccin/alacritty/raw/main/catppuccin-macchiato.toml
-# frappe
-curl -LO --output-dir ~/.config/alacritty https://github.com/catppuccin/alacritty/raw/main/catppuccin-frappe.toml
-# latte
-curl -LO --output-dir ~/.config/alacritty https://github.com/catppuccin/alacritty/raw/main/catppuccin-latte.toml
-```
+    ```console
+    # mocha
+    curl -LO --output-dir ~/.config/alacritty https://github.com/catppuccin/alacritty/raw/main/catppuccin-mocha.toml
+    # macchiato
+    curl -LO --output-dir ~/.config/alacritty https://github.com/catppuccin/alacritty/raw/main/catppuccin-macchiato.toml
+    # frappe
+    curl -LO --output-dir ~/.config/alacritty https://github.com/catppuccin/alacritty/raw/main/catppuccin-frappe.toml
+    # latte
+    curl -LO --output-dir ~/.config/alacritty https://github.com/catppuccin/alacritty/raw/main/catppuccin-latte.toml
+    ```
 
 2. Import the desired flavour config in your `alacritty.toml`:
 
-```toml
-import = [
-  # uncomment the flavour you want below:
-  "~/.config/alacritty/catppuccin-mocha.toml"
-  # "~/.config/alacritty/catppuccin-macchiato.toml"
-  # "~/.config/alacritty/catppuccin-frappe.toml"
-  # "~/.config/alacritty/catppuccin-latte.toml"
-]
-```
+    ```toml
+    import = [
+      # uncomment the flavour you want below:
+      "~/.config/alacritty/catppuccin-mocha.toml"
+      # "~/.config/alacritty/catppuccin-macchiato.toml"
+      # "~/.config/alacritty/catppuccin-frappe.toml"
+      # "~/.config/alacritty/catppuccin-latte.toml"
+    ]
+    ```
 
 ## 🙋 FAQ
 
-- Q: **_"Help! the colors don't look like in the demo while I'm on Tmux. What do I do?"_**\
+- Q: **_"The colors don't look like in the demo while I'm using Tmux. What do I do?"_**\
   A: The solution is two-fold. First, make sure you have the following set in `alacritty.toml`:
 
-```toml
-[env]
-TERM = "xterm-256color"
-```
+  ```toml
+  [env]
+  TERM = "xterm-256color"
+  ```
 
-Second, make sure you have the following in your `tmux.conf`:
+  Second, make sure you have the following in your `tmux.conf`:
 
-```
-set -g default-terminal "xterm-256color"
-set-option -ga terminal-overrides ",xterm-256color:Tc"
-```
+  ```
+  set -g default-terminal "xterm-256color"
+  set-option -ga terminal-overrides ",xterm-256color:Tc"
+  ```
 
-Now you should be all set!
+  Now you should be all set!
 
 ## 💝 Thanks to
 
