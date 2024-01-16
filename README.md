@@ -40,8 +40,8 @@
 > Please see the [`yaml`](https://github.com/catppuccin/alacritty/tree/yaml) tag if you need the config in YAML format.
 
 1. Copy the theme files next to your `alacritty.toml` configuration file.
-   See [Alacritty's README](https://github.com/alacritty/alacritty#configuration) to see where your config file could be
-   located, it is usually stored at `~/.config/alacritty/alacritty.toml`
+   See [Alacritty's README](https://github.com/alacritty/alacritty#configuration) to see where your config file can be
+   stored, it is usually stored at `~/.config/alacritty/alacritty.toml`
 
     - Latte
       ```shell
