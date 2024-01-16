@@ -12,57 +12,78 @@
 </p>
 
 <p align="center">
-  <img src="assets/screenshot.webp"/>
+  <img src="assets/preview.webp"/>
 </p>
+
+## Previews
+
+<details>
+  <summary>🌻 Latte</summary>
+  <img src="assets/latte.webp"/>
+</details>
+<details>
+  <summary>🪴 Frappé</summary>
+  <img src="assets/frappe.webp"/>
+</details>
+<details>
+  <summary>🌺 Macchiato</summary>
+  <img src="assets/macchiato.webp"/>
+</details>
+<details>
+  <summary>🌿 Mocha</summary>
+  <img src="assets/mocha.webp"/>
+</details>
 
 ## Usage
 
-> [!NOTE]
-> Please see this [tag](https://github.com/catppuccin/alacritty/tree/yaml) if you need the config in YAML format.
+> [!NOTE]  
+> Please see the [`yaml`](https://github.com/catppuccin/alacritty/tree/yaml) tag if you need the config in YAML format.
 
-1. Copy the config files next to your Alacritty config file (usually stored at `~/.config/alacritty/alacritty.toml`), with e.g.
+1. Copy the theme files next to your `alacritty.toml` configuration file.
+   See [Alacritty's README](https://github.com/alacritty/alacritty#configuration) to see where your config file can be
+   stored, it is usually stored at `~/.config/alacritty/alacritty.toml`
 
-```console
-# mocha
-curl -LO --output-dir ~/.config/alacritty https://github.com/catppuccin/alacritty/raw/main/catppuccin-mocha.toml
-# macchiato
-curl -LO --output-dir ~/.config/alacritty https://github.com/catppuccin/alacritty/raw/main/catppuccin-macchiato.toml
-# frappe
-curl -LO --output-dir ~/.config/alacritty https://github.com/catppuccin/alacritty/raw/main/catppuccin-frappe.toml
-# latte
-curl -LO --output-dir ~/.config/alacritty https://github.com/catppuccin/alacritty/raw/main/catppuccin-latte.toml
-```
+    - Latte
+      ```shell
+      curl -LO --output-dir ~/.config/alacritty https://github.com/catppuccin/alacritty/raw/main/catppuccin-latte.toml
+      ```
+
+    - Frappé
+      ```shell
+      curl -LO --output-dir ~/.config/alacritty https://github.com/catppuccin/alacritty/raw/main/catppuccin-frappe.toml
+      ```
+
+    - Macchiato
+      ```shell
+      curl -LO --output-dir ~/.config/alacritty https://github.com/catppuccin/alacritty/raw/main/catppuccin-macchiato.toml
+      ```
+
+    - Mocha
+      ```shell
+      curl -LO --output-dir ~/.config/alacritty https://github.com/catppuccin/alacritty/raw/main/catppuccin-mocha.toml
+      ```
 
 2. Import the desired flavour config in your `alacritty.toml`:
 
-```toml
-import = [
-  # uncomment the flavour you want below:
-  "~/.config/alacritty/catppuccin-mocha.toml"
-  # "~/.config/alacritty/catppuccin-macchiato.toml"
-  # "~/.config/alacritty/catppuccin-frappe.toml"
-  # "~/.config/alacritty/catppuccin-latte.toml"
-]
-```
+    ```toml
+    import = [
+      # uncomment the flavour you want below:
+      "~/.config/alacritty/catppuccin-latte.toml"
+      # "~/.config/alacritty/catppuccin-frappe.toml"
+      # "~/.config/alacritty/catppuccin-macchiato.toml"
+      # "~/.config/alacritty/catppuccin-mocha.toml"
+    ]
+    ```
 
 ## 🙋 FAQ
 
-- Q: **_"Help! the colors don't look like in the demo while I'm on Tmux. What do I do?"_**\
-  A: The solution is two-fold. First, make sure you have the following set in `alacritty.toml`:
+- Q: **_"My colours don't look the same as the previews. What do I do?"_**\
+  A: Make sure you have the following set in `alacritty.toml`:
 
-```toml
-[env]
-TERM = "xterm-256color"
-```
-
-Second, make sure you have the following in your `tmux.conf`:
-
-```
-set -g default-terminal "xterm-256color"
-set-option -ga terminal-overrides ",xterm-256color:Tc"
-```
-
-Now you should be all set!
+  ```toml
+  [env]
+  TERM = "xterm-256color"
+  ```
 
 ## 💝 Thanks to
 
