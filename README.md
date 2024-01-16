@@ -20,19 +20,29 @@
 > [!NOTE]  
 > Please see the [`yaml`](https://github.com/catppuccin/alacritty/tree/yaml) tag if you need the config in YAML format.
 
-1. Copy the config files next to your Alacritty config file (usually stored at `~/.config/alacritty/alacritty.toml`),
-   with e.g.
+1. Copy the theme files next to your `alacritty.toml` configuration file.
+   See [Alacritty's README](https://github.com/alacritty/alacritty#configuration) to see where your config file could be
+   located, it is usually stored at `~/.config/alacritty/alacritty.toml`
 
-    ```console
-    # mocha
-    curl -LO --output-dir ~/.config/alacritty https://github.com/catppuccin/alacritty/raw/main/catppuccin-mocha.toml
-    # macchiato
-    curl -LO --output-dir ~/.config/alacritty https://github.com/catppuccin/alacritty/raw/main/catppuccin-macchiato.toml
-    # frappe
-    curl -LO --output-dir ~/.config/alacritty https://github.com/catppuccin/alacritty/raw/main/catppuccin-frappe.toml
-    # latte
-    curl -LO --output-dir ~/.config/alacritty https://github.com/catppuccin/alacritty/raw/main/catppuccin-latte.toml
-    ```
+    - Latte
+      ```shell
+      curl -LO --output-dir ~/.config/alacritty https://github.com/catppuccin/alacritty/raw/main/catppuccin-latte.toml
+      ```
+
+    - Frappe
+      ```shell
+      curl -LO --output-dir ~/.config/alacritty https://github.com/catppuccin/alacritty/raw/main/catppuccin-frappe.toml
+      ```
+
+    - Macchiato
+      ```shell
+      curl -LO --output-dir ~/.config/alacritty https://github.com/catppuccin/alacritty/raw/main/catppuccin-macchiato.toml
+      ```
+
+    - Mocha
+      ```shell
+      curl -LO --output-dir ~/.config/alacritty https://github.com/catppuccin/alacritty/raw/main/catppuccin-mocha.toml
+      ```
 
 2. Import the desired flavour config in your `alacritty.toml`:
 
