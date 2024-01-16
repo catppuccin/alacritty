@@ -48,7 +48,7 @@
       curl -LO --output-dir ~/.config/alacritty https://github.com/catppuccin/alacritty/raw/main/catppuccin-latte.toml
       ```
 
-    - Frappe
+    - Frappé
       ```shell
       curl -LO --output-dir ~/.config/alacritty https://github.com/catppuccin/alacritty/raw/main/catppuccin-frappe.toml
       ```
@@ -68,10 +68,10 @@
     ```toml
     import = [
       # uncomment the flavour you want below:
-      "~/.config/alacritty/catppuccin-mocha.toml"
-      # "~/.config/alacritty/catppuccin-macchiato.toml"
+      "~/.config/alacritty/catppuccin-latte.toml"
       # "~/.config/alacritty/catppuccin-frappe.toml"
-      # "~/.config/alacritty/catppuccin-latte.toml"
+      # "~/.config/alacritty/catppuccin-macchiato.toml"
+      # "~/.config/alacritty/catppuccin-mocha.toml"
     ]
     ```
 
