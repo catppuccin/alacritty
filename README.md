@@ -77,22 +77,13 @@
 
 ## 🙋 FAQ
 
-- Q: **_"The colors don't look like in the demo while I'm using Tmux. What do I do?"_**\
-  A: The solution is two-fold. First, make sure you have the following set in `alacritty.toml`:
+- Q: **_"My colours don't look the same as the previews. What do I do?"_**\
+  A: Make sure you have the following set in `alacritty.toml`:
 
   ```toml
   [env]
   TERM = "xterm-256color"
   ```
-
-  Second, make sure you have the following in your `tmux.conf`:
-
-  ```shell
-  set -g default-terminal "xterm-256color"
-  set-option -ga terminal-overrides ",xterm-256color:Tc"
-  ```
-
-  Now you should be all set!
 
 ## 💝 Thanks to
 
