@@ -85,6 +85,9 @@
   TERM = "xterm-256color"
   ```
 
+- Q: **_"What font have you used in the screenshots above?"_**\
+  A: FONT_NAME_HERE. You can grab a copy over at [nerdfonts.com](https://www.nerdfonts.com/):
+
 ## 💝 Thanks to
 
 - [VictorTennekes](https://github.com/VictorTennekes)
