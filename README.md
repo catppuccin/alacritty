@@ -85,6 +85,9 @@
   TERM = "xterm-256color"
   ```
 
+- Q: **_"What font have you used in the screenshots above?"_**\
+  A: [Iosevka Term](https://typeof.net/Iosevka/)
+
 ## 💝 Thanks to
 
 - [VictorTennekes](https://github.com/VictorTennekes)
