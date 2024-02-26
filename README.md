@@ -86,7 +86,7 @@
   ```
 
 - Q: **_"What font have you used in the screenshots above?"_**\
-  A: Iosevka. You can grab a copy over at the [GitHub repo by be5invis](https://github.com/be5invis/iosevka).
+  A: [Iosevka Term](https://typeof.net/Iosevka/)
 
 ## 💝 Thanks to
 
