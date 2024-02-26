@@ -86,7 +86,7 @@
   ```
 
 - Q: **_"What font have you used in the screenshots above?"_**\
-  A: FONT_NAME_HERE. You can grab a copy over at [nerdfonts.com](https://www.nerdfonts.com/):
+  A: Iosevka. You can grab a copy over at the [GitHub repo by be5invis](https://github.com/be5invis/iosevka).
 
 ## 💝 Thanks to
 
