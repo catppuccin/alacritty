@@ -20,10 +20,6 @@ background = "#A5ADCB"
 foreground = "#24273A"
 background = "#A6DA95"
 
-[colors.footer_bar]
-foreground = "#24273A"
-background = "#A5ADCB"
-
 [colors.hints.start]
 foreground = "#24273A"
 background = "#EED49F"
