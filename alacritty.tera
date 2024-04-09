@@ -1,0 +1,83 @@
+---
+whiskers:
+  version: 2.0.0
+  matrix:
+    - flavor
+  filename: "catppuccin-{{flavor.identifier}}.toml"
+---
+{%- set palette = flavor.colors -%}
+[colors.primary]
+background = "#{{ palette.base.hex }}"
+foreground = "#{{ palette.text.hex }}"
+dim_foreground = "#{{ palette.overlay1.hex }}"
+bright_foreground = "#{{ palette.text.hex }}"
+
+[colors.cursor]
+text = "#{{ palette.base.hex }}"
+cursor = "#{{ palette.rosewater.hex }}"
+
+[colors.vi_mode_cursor]
+text = "#{{ palette.base.hex }}"
+cursor = "#{{ palette.lavender.hex }}"
+
+[colors.search.matches]
+foreground = "#{{ palette.base.hex }}"
+background = "#{{ palette.subtext0.hex }}"
+
+[colors.search.focused_match]
+foreground = "#{{ palette.base.hex }}"
+background = "#{{ palette.green.hex }}"
+
+[colors.footer_bar]
+foreground = "#{{ palette.base.hex }}"
+background = "#{{ palette.subtext0.hex }}"
+
+[colors.hints.start]
+foreground = "#{{ palette.base.hex }}"
+background = "#{{ palette.yellow.hex }}"
+
+[colors.hints.end]
+foreground = "#{{ palette.base.hex }}"
+background = "#{{ palette.subtext0.hex }}"
+
+[colors.selection]
+text = "#{{ palette.base.hex }}"
+background = "#{{ palette.rosewater.hex }}"
+
+[colors.normal]
+black = "#{{ palette.surface1.hex }}"
+red = "#{{ palette.red.hex }}"
+green = "#{{ palette.green.hex }}"
+yellow = "#{{ palette.yellow.hex }}"
+blue = "#{{ palette.blue.hex }}"
+magenta = "#{{ palette.pink.hex }}"
+cyan = "#{{ palette.teal.hex }}"
+white = "#{{ palette.subtext1.hex }}"
+
+[colors.bright]
+black = "#{{ palette.surface2.hex }}"
+red = "#{{ palette.red.hex }}"
+green = "#{{ palette.green.hex }}"
+yellow = "#{{ palette.yellow.hex }}"
+blue = "#{{ palette.blue.hex }}"
+magenta = "#{{ palette.pink.hex }}"
+cyan = "#{{ palette.teal.hex }}"
+white = "#{{ palette.subtext0.hex }}"
+
+[colors.dim]
+black = "#{{ palette.surface1.hex }}"
+red = "#{{ palette.red.hex }}"
+green = "#{{ palette.green.hex }}"
+yellow = "#{{ palette.yellow.hex }}"
+blue = "#{{ palette.blue.hex }}"
+magenta = "#{{ palette.pink.hex }}"
+cyan = "#{{ palette.teal.hex }}"
+white = "#{{ palette.subtext1.hex }}"
+
+[[colors.indexed_colors]]
+index = 16
+color = "#{{ palette.peach.hex }}"
+
+[[colors.indexed_colors]]
+index = 17
+color = "#{{ palette.rosewater.hex }}"
