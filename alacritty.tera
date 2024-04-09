@@ -9,7 +9,7 @@ whiskers:
 [colors.primary]
 background = "#{{ palette.base.hex }}"
 foreground = "#{{ palette.text.hex }}"
-dim_foreground = "#{{ palette.text.hex }}"
+dim_foreground = "#{{ palette.overlay1.hex }}"
 bright_foreground = "#{{ palette.text.hex }}"
 
 [colors.cursor]
