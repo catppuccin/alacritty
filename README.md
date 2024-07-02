@@ -83,10 +83,25 @@
   ```toml
   [env]
   TERM = "xterm-256color"
+
+  [window]
+  opacity = 0.4
   ```
 
 - Q: **_"What font have you used in the screenshots above?"_**\
-  A: [Iosevka Term](https://typeof.net/Iosevka/)
+  A: [Fira Code](https://github.com/tonsky/FiraCode)
+
+- Q: **_"Where can i get the wallpapers you used in the screenshots above?"_**
+- A: You can get them riight here:
+  
+- [Latte](https://media.discordapp.net/attachments/1211770209011241030/1224301568334106734/latte_rainbow_1.png?ex=66852530&is=6683d3b0&hm=9994cdc78a21d27c790ee1f3f387e2873fdef288d2cfb2156764b80b93b56c8c&=&format=webp&quality=lossless&width=1193&height=671)
+
+- [Frappe](https://media.discordapp.net/attachments/1211770209011241030/1224301568837287956/frappe_rainbow_1.png?ex=66852530&is=6683d3b0&hm=69acf27644a3c054b040c30024652ef24180741c5cbdfcbc244cd160c08c23f6&=&format=webp&quality=lossless&width=1193&height=671)
+
+- [Macchiato](https://media.discordapp.net/attachments/1211770209011241030/1224301569642729585/macchiato_rainbow_1.png?ex=66852530&is=6683d3b0&hm=c620e62adf42adeca92c34ed20ee623375c481fa5c893505d98b89be92a8763d&=&format=webp&quality=lossless&width=1193&height=671)
+
+- [Mocha](https://media.discordapp.net/attachments/1211770209011241030/1224301570381058058/mocha_rainbow_1.png?ex=66852530&is=6683d3b0&hm=0a0ba14465fc58896acddc540649ce9447daa9997c62ffa6065e22a1946ef866&=&format=webp&quality=lossless&width=1193&height=671)
+
 
 ## 💝 Thanks to
 
