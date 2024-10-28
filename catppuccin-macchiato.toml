@@ -56,16 +56,6 @@ magenta = "#f5bde6"
 cyan = "#8bd5ca"
 white = "#a5adcb"
 
-[colors.dim]
-black = "#494d64"
-red = "#ed8796"
-green = "#a6da95"
-yellow = "#eed49f"
-blue = "#8aadf4"
-magenta = "#f5bde6"
-cyan = "#8bd5ca"
-white = "#b8c0e0"
-
 [[colors.indexed_colors]]
 index = 16
 color = "#f5a97f"

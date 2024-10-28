@@ -64,16 +64,6 @@ magenta = "#{{ palette.pink.hex }}"
 cyan = "#{{ palette.teal.hex }}"
 white = "#{{ palette.subtext0.hex }}"
 
-[colors.dim]
-black = "#{{ palette.surface1.hex }}"
-red = "#{{ palette.red.hex }}"
-green = "#{{ palette.green.hex }}"
-yellow = "#{{ palette.yellow.hex }}"
-blue = "#{{ palette.blue.hex }}"
-magenta = "#{{ palette.pink.hex }}"
-cyan = "#{{ palette.teal.hex }}"
-white = "#{{ palette.subtext1.hex }}"
-
 [[colors.indexed_colors]]
 index = 16
 color = "#{{ palette.peach.hex }}"
