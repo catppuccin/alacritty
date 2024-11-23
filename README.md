@@ -66,7 +66,8 @@
 2. Import the desired flavour config in your `alacritty.toml`:
 
     ```toml
-    general.import = [
+    [general]
+    import = [
       # uncomment the flavour you want below:
       "~/.config/alacritty/catppuccin-latte.toml"
       # "~/.config/alacritty/catppuccin-frappe.toml"
