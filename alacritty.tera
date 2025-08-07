@@ -6,6 +6,18 @@ whiskers:
   filename: "catppuccin-{{flavor.identifier}}.toml"
 ---
 {%- set palette = flavor.colors -%}
+{%- if flavor.dark -%}
+  {%- set normal_black = palette.surface1 -%}
+  {%- set normal_white = palette.subtext0 -%}
+  {%- set bright_black = palette.surface2 -%}
+  {%- set bright_white = palette.subtext1 -%}
+{% else %}
+  {%- set normal_black = palette.subtext1 -%}
+  {%- set normal_white = palette.surface2 -%}
+  {%- set bright_black = palette.subtext0 -%}
+  {%- set bright_white = palette.surface1 -%}
+{%- endif -%}
+
 [colors.primary]
 background = "#{{ palette.base.hex }}"
 foreground = "#{{ palette.text.hex }}"
@@ -45,24 +57,24 @@ text = "#{{ palette.base.hex }}"
 background = "#{{ palette.rosewater.hex }}"
 
 [colors.normal]
-black = "#{{ palette.surface1.hex }}"
+black = "#{{ normal_black.hex }}"
 red = "#{{ palette.red.hex }}"
 green = "#{{ palette.green.hex }}"
 yellow = "#{{ palette.yellow.hex }}"
 blue = "#{{ palette.blue.hex }}"
 magenta = "#{{ palette.pink.hex }}"
 cyan = "#{{ palette.teal.hex }}"
-white = "#{{ palette.subtext1.hex }}"
+white = "#{{ normal_white.hex }}"
 
 [colors.bright]
-black = "#{{ palette.surface2.hex }}"
+black = "#{{ bright_black.hex }}"
 red = "#{{ palette.red.hex }}"
 green = "#{{ palette.green.hex }}"
 yellow = "#{{ palette.yellow.hex }}"
 blue = "#{{ palette.blue.hex }}"
 magenta = "#{{ palette.pink.hex }}"
 cyan = "#{{ palette.teal.hex }}"
-white = "#{{ palette.subtext0.hex }}"
+white = "#{{ bright_white.hex }}"
 
 [[colors.indexed_colors]]
 index = 16

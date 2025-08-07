@@ -37,24 +37,24 @@ text = "#eff1f5"
 background = "#dc8a78"
 
 [colors.normal]
-black = "#bcc0cc"
+black = "#5c5f77"
 red = "#d20f39"
 green = "#40a02b"
 yellow = "#df8e1d"
 blue = "#1e66f5"
 magenta = "#ea76cb"
 cyan = "#179299"
-white = "#5c5f77"
+white = "#acb0be"
 
 [colors.bright]
-black = "#acb0be"
+black = "#6c6f85"
 red = "#d20f39"
 green = "#40a02b"
 yellow = "#df8e1d"
 blue = "#1e66f5"
 magenta = "#ea76cb"
 cyan = "#179299"
-white = "#6c6f85"
+white = "#bcc0cc"
 
 [[colors.indexed_colors]]
 index = 16
