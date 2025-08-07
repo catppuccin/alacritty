@@ -44,7 +44,7 @@ yellow = "#e5c890"
 blue = "#8caaee"
 magenta = "#f4b8e4"
 cyan = "#81c8be"
-white = "#b5bfe2"
+white = "#a5adce"
 
 [colors.bright]
 black = "#626880"
@@ -54,7 +54,7 @@ yellow = "#e5c890"
 blue = "#8caaee"
 magenta = "#f4b8e4"
 cyan = "#81c8be"
-white = "#a5adce"
+white = "#b5bfe2"
 
 [[colors.indexed_colors]]
 index = 16
