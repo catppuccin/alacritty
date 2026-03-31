@@ -88,6 +88,9 @@
 - Q: **_"What font have you used in the screenshots above?"_**\
   A: [Iosevka Term](https://typeof.net/Iosevka/)
 
+- Q: **_"What fetch tool have you used in the screenshots above?"_**\
+  A: [pfetch-with-kitties](https://github.com/unseen-ninja/pfetch)
+
 ## 💝 Thanks to
 
 - [VictorTennekes](https://github.com/VictorTennekes)
