@@ -1,6 +1,6 @@
 ---
 whiskers:
-  version: 2.0.0
+  version: "^2.10.0"
   matrix:
     - flavor
   filename: "catppuccin-{{flavor.identifier}}.toml"
@@ -45,24 +45,14 @@ text = "#{{ palette.base.hex }}"
 background = "#{{ palette.rosewater.hex }}"
 
 [colors.normal]
-black = "#{{ palette.surface1.hex }}"
-red = "#{{ palette.red.hex }}"
-green = "#{{ palette.green.hex }}"
-yellow = "#{{ palette.yellow.hex }}"
-blue = "#{{ palette.blue.hex }}"
-magenta = "#{{ palette.pink.hex }}"
-cyan = "#{{ palette.teal.hex }}"
-white = "#{{ palette.subtext1.hex }}"
+{%- for _, pair in flavor.ansi_color_pairs %}
+{{ pair.identifier }} = "#{{ pair.normal.hex }}"
+{%- endfor %}
 
 [colors.bright]
-black = "#{{ palette.surface2.hex }}"
-red = "#{{ palette.red.hex }}"
-green = "#{{ palette.green.hex }}"
-yellow = "#{{ palette.yellow.hex }}"
-blue = "#{{ palette.blue.hex }}"
-magenta = "#{{ palette.pink.hex }}"
-cyan = "#{{ palette.teal.hex }}"
-white = "#{{ palette.subtext0.hex }}"
+{%- for _, pair in flavor.ansi_color_pairs %}
+{{ pair.identifier }} = "#{{ pair.bright.hex }}"
+{%- endfor %}
 
 [[colors.indexed_colors]]
 index = 16
