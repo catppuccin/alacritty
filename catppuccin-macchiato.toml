@@ -44,17 +44,17 @@ yellow = "#eed49f"
 blue = "#8aadf4"
 magenta = "#f5bde6"
 cyan = "#8bd5ca"
-white = "#b8c0e0"
+white = "#a5adcb"
 
 [colors.bright]
 black = "#5b6078"
-red = "#ed8796"
-green = "#a6da95"
-yellow = "#eed49f"
-blue = "#8aadf4"
-magenta = "#f5bde6"
-cyan = "#8bd5ca"
-white = "#a5adcb"
+red = "#ec7486"
+green = "#8ccf7f"
+yellow = "#e1c682"
+blue = "#78a1f6"
+magenta = "#f2a9dd"
+cyan = "#63cbc0"
+white = "#b8c0e0"
 
 [[colors.indexed_colors]]
 index = 16
